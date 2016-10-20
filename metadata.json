@@ -1,11 +1,25 @@
 {
   "name": "salmin-selajnux",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "salmin",
   "summary": "Handle selinux in Hiera.",
   "license": "Apache-2.0",
   "source": "https://github.com/AlexanderSalmin/selajnux",
   "project_page": "https://github.com/AlexanderSalmin/selajnux",
   "issues_url": "https://github.com/AlexanderSalmin/selajnux/issues",
-  "dependencies": []
+  "dependencies": [],
+  "operatingsystem_support": [
+      {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "7.0" ]
+      },
+      {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":[ "7.2", "7.1", "7.0" ]
+      },
+      {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "16.04", "14.04", "12.04" ]
+      }
+  ]
 }

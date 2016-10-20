@@ -23,7 +23,7 @@ Enable selinux booleans with hiera based on audit2allow.
 Puppetfile
 
 ```puppet
-  mod 'alexandersalmin/selajnux', :latest
+  mod 'salmin/selajnux', :latest
 ```
 Puppetnode;
 

@@ -32,24 +32,24 @@
 #
 # Alexander Salmin
 #
-class selajnux ( $allow = [], $deny = [],) {
+class selajnux ( $allow = [], $deny = []) {
 
     # Allow the following selinux booleans
     # In hiera: selajnux::allow
     $allow.each | $name | {
-        selboolean { "$name":
-          name => "$name",
-          value => "on",
+        selboolean { $name:
+          name  => $name,
+          value => on,
         }
     }
 
     # Deny the following selinux booleans
     # In hiera: selajnux::deny
     $deny.each | $name | {
-        selboolean { "$name":
-          name => "$name",
-          value => "off",
+        selboolean { $name:
+          name  => $name,
+          value => off,
         }
     }
 
-} 
+}
