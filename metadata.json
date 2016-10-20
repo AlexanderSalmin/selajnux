@@ -1,0 +1,11 @@
+{
+  "name": "salmin-selajnux",
+  "version": "2.0.0",
+  "author": "salmin",
+  "summary": "Handle selinux in Hiera.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/AlexanderSalmin/selajnux",
+  "project_page": "https://github.com/AlexanderSalmin/selajnux",
+  "issues_url": "https://github.com/AlexanderSalmin/selajnux/issues",
+  "dependencies": []
+}
